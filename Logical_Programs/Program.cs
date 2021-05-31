@@ -24,6 +24,13 @@ namespace Logical_Programs
                     perfectnumber.Number();
                     break;
 
+
+                case 2:
+                    PrimeNumber primenumber = new PrimeNumber();
+                    primenumber.Prime();
+                    break;
+
+
             }
         }
     }
