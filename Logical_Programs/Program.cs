@@ -24,13 +24,15 @@ namespace Logical_Programs
                     perfectnumber.Number();
                     break;
 
-
                 case 2:
                     PrimeNumber primenumber = new PrimeNumber();
                     primenumber.Prime();
                     break;
 
-
+                case 3:
+                    Fibonacci fibonacci = new Fibonacci();
+                    fibonacci.Series();
+                    break;
             }
         }
     }
