@@ -33,6 +33,15 @@ namespace Logical_Programs
                     Fibonacci fibonacci = new Fibonacci();
                     fibonacci.Series();
                     break;
+
+                case 4:
+                    ReverseNumber reversenumber = new ReverseNumber();
+                    reversenumber.Reverse();
+                    break;
+
+                default:
+                    Console.WriteLine("Choose Correct Case");
+                    break;
             }
         }
     }
